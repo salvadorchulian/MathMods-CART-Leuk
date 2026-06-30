@@ -130,7 +130,7 @@ function CAR_T_PDE_Antigen_Proportion
     end
 
      %% Exporting figures
-    root="/Users/salvador/Library/CloudStorage/Dropbox/MATLAB/CART";
+    root=""; % Define your root directory!
     exportgraphics(fig, root+"/PDE_Ant_"+choice+".png", 'Resolution', 300);
 end
 
