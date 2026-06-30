@@ -33,9 +33,11 @@ The root directory contains the following verified MATLAB scripts and documentat
 * **`interactive_ODE_model.m`**: A full-featured Graphical User Interface (GUI) containing interactive sliders (*UI sliders*). It allows users to manipulate biological parameters in real time and instantly visualize the resulting Lotka-Volterra type predator-prey oscillations.
 * **`interactive_PDE_model.m`**: An interactive visual dashboard tailored for the antigen-structured PDE model. It simulates and animates density profiles across the $x$ antigen domain dynamically as parameters are modified.
 * **`Simulations_PDE.pdf`**: A supplementary data file illustrating temporal trajectories, density distributions, and simulation panels across different initial clone configurations (e.g., single clone centered at 0.4 or 0.6, and mixed multi-clonal setups).
+
 **FOLDER Antigen_Proportion_Analyses**
 * **`CAR_T_ODE_Antigen_Proportion.m`**: Simulates the compartmental ODE model over a multi-year horizon (up to 10 years). It performs bivariate parameter sweeps across critical thresholds ($h$ and $k$) to construct multi-panel heatmaps of long-term tumor composition across different initial conditions.
 * **`CAR_T_PDE_Antigen_Proportion.m`**: Executes parameter sweeps and spatial integration over the continuous antigen-structured PDE domain to evaluate long-term clonal composition, mean antigen profiles, and clearance rates.
+
 **FOLDER Sensitivity_Analyses**
 * **`SobolODEfinal.m`**: Conducts a Global Sensitivity Analysis (GSA) using the Saltelli sampling scheme to compute first-order and total Sobol indices, identifying which biochemical parameters drive variance in the ODE populations.
 * **`SobolPDEfinal.m`**: Implements the sensitivity analysis framework optimized for the continuous PDE model to track parameter importance.
