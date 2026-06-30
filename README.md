@@ -44,7 +44,6 @@ The root directory contains the following verified MATLAB scripts and documentat
 * **`SobolODEfinal.m`**: Conducts a Global Sensitivity Analysis (GSA) using the Saltelli sampling scheme to compute first-order and total Sobol indices, identifying which biochemical parameters drive variance in the ODE populations.
 * **`SobolPDEfinal.m`**: Implements the sensitivity analysis framework optimized for the continuous PDE model to track parameter importance.
 * **`Sensitivity_ODE.pdf`** Heatmap summary of the sensitivity analyses from the ODE model.
-* 
 * **`Sensitivity_PDE.pdf`** Heatmap summary of the sensitivity analyses from the PDE model.
 
 ---
