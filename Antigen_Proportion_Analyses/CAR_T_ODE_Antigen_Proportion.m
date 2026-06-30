@@ -136,7 +136,7 @@ function CAR_T_ODE_Antigen_Proportion
         end
     end
     %% Exporting figures
-    root="/Users/salvador/Library/CloudStorage/Dropbox/MATLAB/CART";
+    root="";% Define your root directory!
     exportgraphics(fig, root+"/ODE_Ant_"+choice+".png", 'Resolution', 300);
 end
 
