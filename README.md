@@ -37,10 +37,15 @@ The root directory contains the following verified MATLAB scripts and documentat
 **FOLDER Antigen_Proportion_Analyses**
 * **`CAR_T_ODE_Antigen_Proportion.m`**: Simulates the compartmental ODE model over a multi-year horizon (up to 10 years). It performs bivariate parameter sweeps across critical thresholds ($h$ and $k$) to construct multi-panel heatmaps of long-term tumor composition across different initial conditions.
 * **`CAR_T_PDE_Antigen_Proportion.m`**: Executes parameter sweeps and spatial integration over the continuous antigen-structured PDE domain to evaluate long-term clonal composition, mean antigen profiles, and clearance rates.
+* **`ODE_Ant_***.png files`**: Simulations from the ODE model using different scenarios: 100percent Antigen Negative, 100percent Antigen Positive and 50% and 50%  antigen positive and negative (mixed clones).
+* **`PDE_Ant_***.png files`**: Simulations from the PDE model using different scenarios: a single clone centered at x=0.4, a single clone centered at x=0.6, and two clones centered at x=0.4 and x=0.6.
 
 **FOLDER Sensitivity_Analyses**
 * **`SobolODEfinal.m`**: Conducts a Global Sensitivity Analysis (GSA) using the Saltelli sampling scheme to compute first-order and total Sobol indices, identifying which biochemical parameters drive variance in the ODE populations.
 * **`SobolPDEfinal.m`**: Implements the sensitivity analysis framework optimized for the continuous PDE model to track parameter importance.
+* **`Sensitivity_ODE.pdf`** Heatmap summary of the sensitivity analyses from the ODE model.
+* 
+* **`Sensitivity_PDE.pdf`** Heatmap summary of the sensitivity analyses from the PDE model.
 
 ---
 
